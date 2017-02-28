@@ -11,5 +11,8 @@
 #print round(sense.get_temperature_from_humidity(), 2)
 #print round(sense.get_temperature_from_pressure(), 2)
 
-print round(35.5546557645, 2)
-print round(39.4847363, 2)
+import random
+
+print random.uniform(36, 40)
+print random.uniform(36, 40)
+print random.uniform(36, 40)
